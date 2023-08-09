@@ -1,0 +1,39 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "slots": [],
+          "name": "operacion",
+          "samples": [
+            "raiz cuadrada",
+            "operacion raiz",
+            "operacion de suma",
+            "Suma las variables",
+            "suma",
+            "Realiza la suma",
+            "Realiza una suma"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [],
+      "invocationName": "operaciones matematicas"
+    }
+  }
+}
